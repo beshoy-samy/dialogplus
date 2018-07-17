@@ -265,9 +265,9 @@ public class DialogPlus {
                           @Nullable View footerView, boolean fixedFooter, BaseAdapter adapter) {
     View view = holder.getView(inflater, rootView);
 
-    if (holder instanceof ViewHolder) {
+    /*if (holder instanceof ViewHolder) {
       assignClickListenerRecursively(view);
-    }
+    }*/
 
     if (headerView != null) {
       assignClickListenerRecursively(headerView);
